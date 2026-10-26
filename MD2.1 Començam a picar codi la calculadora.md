@@ -362,7 +362,7 @@ const parts = "3.5 * 2".match(patro);
 
 ```js
 parts[0]   // "3.5 * 2"  (tot el text)
- parts[1]   // "3.5"      (primer nombre)
+parts[1]   // "3.5"      (primer nombre)
 parts[2]   // "*"        (operador)
 parts[3]   // "2"        (segon nombre)
 ```
