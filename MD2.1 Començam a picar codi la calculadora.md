@@ -121,7 +121,7 @@ Obre la consola (`F12`). Hi veuràs `Hola, món!`.
 Una **variable** és una **caixa amb nom** on es guarda una dada perquè la puguem fer servir després.
 
 ```js
-const nom = "Maria";
+let nom = "Maria";
 console.log(nom);
 ```
 
@@ -250,8 +250,8 @@ JavaScript prova les condicions **de dalt a baix** i executa **només el primer 
 
 | Símbol | Significa |
 | --- | --- |
-| `===` | és igual a |
-| `!==` | és diferent de |
+| `==` | és igual a |
+| `!=` | és diferent de |
 | `>` / `<` | major que / menor que |
 | `>=` / `<=` | major o igual / menor o igual |
 
